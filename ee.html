@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Песнопение с разметкой распева</title>
+    <style>
+        body {
+            font-family: "Times New Roman", Georgia, serif;
+            font-size: 24px;
+            line-height: 1.5;
+            padding: 40px;
+            background-color: #fff;
+            color: #000;
+            text-align:justify;
+        }
+        .chant-text {
+            white-space: pre-wrap;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        .sing-wavy {
+            position: relative;
+            display: inline-block;
+        }
+        .sing-wavy::after {
+            content: "~";
+            position: absolute;
+            bottom: 7px;
+            left: 50%;
+            transform: translateX(-50%);
+            font-size: 1.0em;
+            font-weight: 900;
+            line-height: 0;
+        }
+    </style>
+</head>
+<body>
+<div class="chant-text">
+От свят<span class="sing-wavy">ы</span>я иконы Твое<b><u>я</u></b>,<b>/</b> о Владычице Богор<b><u>о</u></b>дице,<b>/</b> исцел<span class="sing-wavy">е</span>ния и цельбы подаются об<b><u>и</u></b>льно<b>/</b> с верою и любовию приход<b><u>я</u></b>щим к ней:<b>/</b> т<span class="sing-wavy">а</span>ко и мою немощь посет<b><u>и</u></b>,<b>/</b> и душу мою помилуй, Благ<b><u>а</u></b>я,<b>/</b> и т<span class="sing-wavy">е</span>ло исцел<b><u>и</u></b><b>//</b> благодатию Твоею, Преч<b><u>и</u></b>стая.</div>
+</body>
+</html>

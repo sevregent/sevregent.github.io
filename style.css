@@ -35,7 +35,7 @@ body {
 .sing-wuvy::after {
     content: "~";
     position: absolute;
-    bottom: 1px;
+    bottom: 4px;
     left: 50%;
     transform: translateX(-50%);
     font-size: 1.0em;
@@ -50,7 +50,7 @@ body {
 .uu::after {
     content: "_";
     position: absolute;
-    bottom: 12px;
+    bottom: 15px;
     left: 50%;
     transform: translateX(-50%);
     font-size: 1.0em;

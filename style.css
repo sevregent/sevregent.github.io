@@ -20,7 +20,7 @@ body {
 .sing-wavy::after {
     content: "~";
     position: absolute;
-    bottom: 9px;
+    bottom: 7px;
     left: 50%;
     transform: translateX(-50%);
     font-size: 1.0em;
@@ -50,10 +50,55 @@ body {
 .uu::after {
     content: "_";
     position: absolute;
-    bottom: 16px;
+    bottom: 15px;
     left: 50%;
     transform: translateX(-50%);
     font-size: 1.0em;
+    font-weight: 900;
+    line-height: 0;
+}
+
+.glas8up {
+    position: relative;
+    display: inline-block;
+}	
+.glas8up::after {
+    content: "▲";
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 0.4em;
+    font-weight: 900;
+    line-height: 0;
+}
+
+.glas8down {
+    position: relative;
+    display: inline-block;
+}	
+.glas8down::after {
+    content: "▼";
+    position: absolute;
+    bottom: 5px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 0.4em;
+    font-weight: 900;
+    line-height: 0;
+}
+
+.glas8downu {
+    position: relative;
+    display: inline-block;
+}	
+.glas8downu::after {
+    content: "▼";
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 0.4em;
     font-weight: 900;
     line-height: 0;
 }

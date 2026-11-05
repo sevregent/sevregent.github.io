@@ -20,7 +20,7 @@ body {
 .sing-wavy::after {
     content: "~";
     position: absolute;
-    bottom: 7px;
+    bottom: 6px;
     left: 50%;
     transform: translateX(-50%);
     font-size: 1.0em;
@@ -35,7 +35,7 @@ body {
 .sing-wuvy::after {
     content: "~";
     position: absolute;
-    bottom: 4px;
+    bottom: 3px;
     left: 50%;
     transform: translateX(-50%);
     font-size: 1.0em;

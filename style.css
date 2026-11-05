@@ -69,7 +69,7 @@ body {
 .glas8up::after {
     content: "▲";
     position: absolute;
-    bottom: 32px;
+    bottom: 30px;
     left: 50%;
     transform: translateX(-50%);
     font-size: 0.47em;
@@ -84,7 +84,7 @@ body {
 .glas8down::after {
     content: "▼";
     position: absolute;
-    bottom: 7px;
+    bottom: 8px;
     left: 50%;
     transform: translateX(-50%);
     font-size: 0.47em;
@@ -99,7 +99,7 @@ body {
 .glas8downu::after {
     content: "▼";
     position: absolute;
-    bottom: 0px;
+    bottom: 1px;
     left: 50%;
     transform: translateX(-50%);
     font-size: 0.47em;

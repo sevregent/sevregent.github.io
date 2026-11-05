@@ -50,7 +50,7 @@ body {
 .uu::after {
     content: "_";
     position: absolute;
-    bottom: 15px;
+    bottom: 14px;
     left: 50%;
     transform: translateX(-50%);
     font-size: 1.0em;

@@ -1,0 +1,104 @@
+body {
+    font-family: "Times New Roman", Georgia, serif;
+    font-size: 23px;
+    line-height: 1.5;
+    padding: 40px;
+    background-color: #fff;
+    color: #000;
+    text-align:justify;
+	word-spacing:2px;
+}
+.chant-text {
+    white-space: pre-wrap;
+    max-width: 800px;
+    margin: 0 auto;
+}
+.sing-wavy {
+    position: relative;
+    display: inline-block;
+}
+.sing-wavy::after {
+    content: "~";
+    position: absolute;
+    bottom: 6px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 1.0em;
+    font-weight: 900;
+    line-height: 0;
+}
+
+.sing-wuvy {
+    position: relative;
+    display: inline-block;
+}
+.sing-wuvy::after {
+    content: "~";
+    position: absolute;
+    bottom: 3px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 1.0em;
+    font-weight: 900;
+    line-height: 0;
+}
+
+.uu {
+    position: relative;
+    display: inline-block;
+}	
+.uu::after {
+    content: "_";
+    position: absolute;
+    bottom: 14px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 1.0em;
+    font-weight: 900;
+    line-height: 0;
+}
+
+.glas8up {
+    position: relative;
+    display: inline-block;
+}	
+.glas8up::after {
+    content: "▲";
+    position: absolute;
+    bottom: 28px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 0.47em;
+    font-weight: 900;
+    line-height: 0;
+}
+
+.glas8down {
+    position: relative;
+    display: inline-block;
+}	
+.glas8down::after {
+    content: "▼";
+    position: absolute;
+    bottom: 6px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 0.47em;
+    font-weight: 900;
+    line-height: 0;
+}
+
+.glas8downu {
+    position: relative;
+    display: inline-block;
+}	
+.glas8downu::after {
+    content: "▼";
+    position: absolute;
+    bottom: 2px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 0.47em;
+    font-weight: 900;
+    line-height: 0;
+}

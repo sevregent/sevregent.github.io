@@ -102,3 +102,33 @@ body {
     font-weight: 900;
     line-height: 0;
 }
+
+.gl6 {
+    position: relative;
+    display: inline-block;
+}	
+.gl6::after {
+    content: "-";
+    position: absolute;
+    bottom: 8px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 1.0em;
+    font-weight: 900;
+    line-height: 0;
+}
+
+.gl6u {
+    position: relative;
+    display: inline-block;
+}	
+.gl6u::after {
+    content: "-";
+    position: absolute;
+    bottom: 5px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 1.0em;
+    font-weight: 900;
+    line-height: 0;
+}
